@@ -1,0 +1,144 @@
+
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta name="viewport" content="width=device-widt, initial-scale=1.0"> 
+        <title>Mebel Mega Master</title> 
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> 
+    </head> 
+    <body> 
+        <section class="header"> 
+            <nav> 
+                <a href="index.html"><img src="logo.png"></a> 
+                <div class="nav-links" id="navLinks"> 
+                    <i class="fa fa-bars" onclick="hideMenu()"></i> 
+                    <ul> 
+                        <li><a href="index.html">HOME</a></li> 
+                        <li><a href="about.html">ABOUT</a></li> 
+                        <li><a href="style.html">STYLE</a></li> 
+                        <li><a href="blog.html">PRICE</a></li> 
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul> 
+                </div> 
+                <i class="fa fa-times" onclick="showMenu()"></i> 
+            </nav> 
+            <div class="text-box"> 
+                <h1>Мебельная Компания Мега-Мастер</h1> 
+                <p>Одна Из Самых Лучших Компаний Бишкека</p> 
+                <a href="about.html" class="hero-btn">подробнее..</a> 
+            </div> 
+        </section> 
+ 
+ 
+<!-----ABOUT--> 
+<section class="about"> 
+    <h1>Стили Которые Мы Предлагаем</h1> 
+    <p>примеры ниже</p> 
+ 
+    <div class="row"> 
+        <div class="course-col"> 
+            <h3>Хай-Тек</h3> 
+            <p>Хай-тек — стиль в дизайне и архитектуре, характеризуется преобладанием техники, металла, пластика.  
+                Основным отличием стиля является полный отказ от элементов декора. Хай-тек - это про функциональность и практичность.  
+            </p> 
+        </div> 
+        <div class="course-col"> 
+            <h3>Классика</h3> 
+            <p>Традиционная классика - это стиль в котором преобладают правильные геометриские, симетррия и парные элементы.  
+                Такой стиль поражат изысканностью, богатством и роскошностью деталей. 
+                Неоклассика – сдержанная элегантность, минимализм. Результат получается благородным и актуальным. 
+            </p> 
+        </div> 
+        <div class="course-col"> 
+            <h3>Лофт</h3> 
+            <p>Это современный стиль интерьера, для него характерно большое количество открытого пространства.  
+                Мебель в стиле лофт – это уникальные предметы в винтажном исполнении, которые дополняют общую атмосферу  
+                и создают уютное зонирование помещений.</p> 
+        </div> 
+    </div> 
+</section> 
+
+<!----------ckfk--------> 
+<section class="ckfk"> 
+    <h1>Примеры Мебели</h1> 
+    <p>для подробносте обращайтесь по номеру указанному ниже</p> 
+    <div class="row"> 
+        <div class="ckfk-col"> 
+            <img src="london.jpeg"> 
+            <div class="layer"> 
+                <h3>Хай-тек</h3> 
+            </div> 
+        </div> 
+        <div class="ckfk-col"> 
+            <img src="newyork.jpg"> 
+            <div class="layer"> 
+                <h3>Классика</h3> 
+            </div> 
+        </div> 
+        <div class="ckfk-col"> 
+            <img src="london.png"> 
+            <div class="layer"> 
+                <h3>Неоклассика</h3> 
+            </div> 
+        </div> 
+        <div class="ckfk-col"> 
+            <img src="washington.png"> 
+            <div class="layer"> 
+                <h3>Лофт</h3> 
+            </div> 
+        </div> 
+    </div> 
+</section> 
+ 
+<section class="asd"> 
+    <h1>Наши Услуги</h1> 
+    <div class="row"> 
+        <div class="asd-col"> 
+            <img src="library.png"> 
+            <h3>Доставка Мебели</h3> 
+            <p>Достака мебели входит в стоимость мебели</p> 
+        </div> 
+        <div class="asd-col"> 
+            <img src="basketball.png"> 
+            <h3>Проект Мебели</h3> 
+            <p>Проект мебели входит в стоимость мебели(примечание: делается проект только мебели, без интерьера)</p> 
+        </div> 
+        <div class="asd-col"> 
+            <img src="cafeteria.png"> 
+            <h3>Изготовление Мебели</h3> 
+            <p>Срок изготовления мебели - в среднем месяц(примечание: зависит от вашего заказа)</p> 
+        </div> 
+ 
+    </div> 
+</section> 
+ 
+<!-----------------Projectnew-----------> 
+ 
+ 
+<section class="cta"> 
+    <h1>Мы</h1> 
+    <a href="contact.html" class="hero-btn">контакты</a> 
+</section> 
+
+
+<section class="footer">
+    <p>Всегда рады вас видеть <br> Сделано с любовью, от МегаМастер</p>
+    <p>номер +996(558)313-099<br>инстаграмм <a href="https://www.instagram.com/mebel_megamaster.kg/">mebel_megamaser.kg</a></p>
+</section>
+
+        <script> 
+            var navLinks = document.getElementById("navLinks"); 
+            function showMenu(){ 
+                navLinks.style.right = "0"; 
+            } 
+            function hideMenu(){ 
+                navLinks.style.right = "-200px"; 
+            } 
+        </script> 
+    </body> 
+</html>
+

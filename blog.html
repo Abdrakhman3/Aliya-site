@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta name="viewport" content="width=device-widt, initial-scale=1.0"> 
+        <title>Mebel Mega Master</title> 
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> 
+    </head> 
+    <body> 
+<section class="sub-header"> 
+    <nav> 
+        <a href="index.html"><img src="logo.png"></a> 
+        <div class="nav-links" id="navLinks"> 
+            <i class="fa fa-bars" onclick="hideMenu()"></i> 
+            <ul> 
+                <li><a href="index.html">HOME</a></li> 
+                <li><a href="about.html">ABOUT</a></li> 
+                <li><a href="style.html">STYLE</a></li> 
+                <li><a href="blog.html">PRICE</a></li> 
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul> 
+        </div> 
+        <i class="fa fa-times" onclick="showMenu()"></i> 
+    </nav>
+    <h1>Цены</h1>
+</section>
+<!-----------------атльвдльвдыввсдб----------->
+<section class="blog-conent">
+    <div class="row">
+        <div class="blog-left">
+            <img src="certificate.jpg">
+            <h2>Цены На Погонный Метр</h2>
+            <p>Погонный метр ничем не отличается от обычного метра, это единица, которой измеряют длину 
+                материала независимо от ширины</p>
+            <br>
+            <p>Погонный метр хай-тека стоит 450$ <br> Погонный метр классики стоит 500$ <br>
+                Погонный метр неоклассики стоит 450$ <br> Погонный метр лофта стоит 450$</p>
+            <br>
+            <p>для того что бы узнать подробнее пишите нам по номеру<br>с 10.00-17.00 с пн-сб</p>
+        </div>
+
+        <div class="blog-left">
+            <img src="certificate.jpg">
+            <h2>Цены На Квадратный Метр</h2>
+            <div>
+                <p>Квадратный метр хай-тека стоит 200$ <br> Квадратный метр классики стоит 250$ <br>
+                    Квадратный метр неоклассики стоит 250$ <br> Квадратный метр лофта стоит 200$</p>
+                <br>
+                <p>для того что бы узнать подробнее пишите нам по номеру<br>с 10.00-17.00 с пн-сб</p>
+            </div>
+                
+        </div>
+    </div>
+</section>
+<section class="footer">
+    <p>Всегда рады вас видеть <br> Сделано с любовью, от МегаМастер</p>
+    <p>номер +996(558)313-099<br>инстаграмм <a href="https://www.instagram.com/mebel_megamaster.kg/">mebel_megamaser.kg</a></p>
+</section>
+
+        <script> 
+            var navLinks = document.getElementById("navLinks"); 
+            function showMenu(){ 
+                navLinks.style.right = "0"; 
+            } 
+            function hideMenu(){ 
+                navLinks.style.right = "-200px"; 
+            } 
+        </script> 
+    </body> 
+</html> 
